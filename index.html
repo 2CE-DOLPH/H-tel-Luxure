@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hôtel Luxure - Réservation en ligne</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><i class="fas fa-hotel"></i> Hôtel Luxure</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#chambres" class="nav-link">Chambres</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#reservation" class="nav-link">Réservation</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenue à l'Hôtel Luxure</h1>
+            <p>Découvrez le confort et l'élégance dans un cadre exceptionnel</p>
+            <a href="#reservation" class="btn-primary">Réserver maintenant</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Hôtel Luxure">
+        </div>
+    </section>
+
+    <!-- Section Chambres -->
+    <section id="chambres" class="rooms">
+        <div class="container">
+            <h2>Nos Chambres</h2>
+            <div class="rooms-grid">
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Chambre Standard">
+                    <div class="room-info">
+                        <h3>Chambre Standard</h3>
+                        <p>Chambre confortable avec vue sur la ville</p>
+                        <div class="room-features">
+                            <span><i class="fas fa-wifi"></i> WiFi gratuit</span>
+                            <span><i class="fas fa-tv"></i> TV</span>
+                            <span><i class="fas fa-snowflake"></i> Climatisation</span>
+                        </div>
+                        <div class="room-price">À partir de 1200000fng/nuit</div>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <img src="images/chambre_standard_hotel.jpg" alt="Chambre Deluxe">
+                    <div class="room-info">
+                        <h3>Chambre Deluxe</h3>
+                        <p>Chambre spacieuse avec balcon privé</p>
+                        <div class="room-features">
+                            <span><i class="fas fa-wifi"></i> WiFi gratuit</span>
+                            <span><i class="fas fa-tv"></i> TV 4K</span>
+                            <span><i class="fas fa-snowflake"></i> Climatisation</span>
+                            <span><i class="fas fa-bath"></i> Salle de bain privée</span>
+                        </div>
+                        <div class="room-price">À partir de 1800000fng/nuit</div>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <img src="images/chambre_deluxe.jpg" alt="Suite Présidentielle">
+                    <div class="room-info">
+                        <h3>Suite Présidentielle</h3>
+                        <p>Suite de luxe avec vue panoramique</p>
+                        <div class="room-features">
+                            <span><i class="fas fa-wifi"></i> WiFi gratuit</span>
+                            <span><i class="fas fa-tv"></i> TV 4K</span>
+                            <span><i class="fas fa-snowflake"></i> Climatisation</span>
+                            <span><i class="fas fa-bath"></i> Jacuzzi privé</span>
+                            <span><i class="fas fa-concierge-bell"></i> Service de conciergerie</span>
+                        </div>
+                        <div class="room-price">À partir de 3500000fng/nuit</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Restaurant</h3>
+                    <p>Cuisine gastronomique avec des chefs étoilés</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-swimming-pool"></i>
+                    <h3>Piscine</h3>
+                    <p>Piscine extérieure chauffée avec vue panoramique</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-spa"></i>
+                    <h3>Spa & Bien-être</h3>
+                    <p>Centre de bien-être avec massages et soins</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Salle de Sport</h3>
+                    <p>Équipements modernes pour votre forme</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-car"></i>
+                    <h3>Parking</h3>
+                    <p>Parking privé sécurisé gratuit</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-plane"></i>
+                    <h3>Navette Aéroport</h3>
+                    <p>Service de navette gratuit vers l'aéroport</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Réservation -->
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <h2>Réservez votre séjour</h2>
+            <div class="reservation-form-container">
+                <form id="reservationForm" class="reservation-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="checkin">Date d'arrivée</label>
+                            <input type="date" id="checkin" name="checkin" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout">Date de départ</label>
+                            <input type="date" id="checkout" name="checkout" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="guests">Nombre d'invités</label>
+                            <select id="guests" name="guests" required>
+                                <option value="">Sélectionner</option>
+                                <option value="1">1 invité</option>
+                                <option value="2">2 invités</option>
+                                <option value="3">3 invités</option>
+                                <option value="4">4 invités</option>
+                                <option value="5+">5+ invités</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="roomType">Type de chambre</label>
+                            <select id="roomType" name="roomType" required>
+                                <option value="">Sélectionner</option>
+                                <option value="standard">Chambre Standard - 1200000fng/nuit</option>
+                                <option value="deluxe">Chambre Deluxe - 1800000fng/nuit</option>
+                                <option value="suite">Suite Présidentielle - 3500000fng/nuit</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">Prénom</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Nom</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="specialRequests">Demandes spéciales</label>
+                        <textarea id="specialRequests" name="specialRequests" rows="3" placeholder="Végétarien, chambre à l'étage, etc."></textarea>
+                    </div>
+                    <div class="reservation-summary" id="reservationSummary" style="display: none;">
+                        <h3>Résumé de votre réservation</h3>
+                        <div id="summaryContent"></div>
+                        <div class="total-price" id="totalPrice"></div>
+                    </div>
+                    <button type="submit" class="btn-primary">Confirmer la réservation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Adresse</h3>
+                            <p>Fossidet station<br>Conakry, Guinée</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Téléphone</h3>
+                            <p>+224 629 130 669</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>contact@hotelluxure.fr</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Sujet" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-hotel"></i> Hôtel Luxure</h3>
+                    <p>Votre destination de luxe pour un séjour inoubliable.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#chambres">Chambres</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#reservation">Réservation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Hôtel Luxure. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de confirmation -->
+    <div id="confirmationModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Réservation confirmée !</h2>
+            <div id="confirmationDetails"></div>
+            <p>Un email de confirmation vous sera envoyé sous peu.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
